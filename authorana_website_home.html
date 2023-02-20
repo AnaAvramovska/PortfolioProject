@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Author Home Page</title>
+    <link rel="stylesheet" href="styles2.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <h1>Author Name</h1>
+            <ul>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+                <li><a href="#book">Book Info</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container">
+            <h2>Welcome to My Home Page</h2>
+            <p>Author Bio or Tagline Goes Here</p>
+        </div>
+    </header>
+
+    <main>
+        <section id="about" class="about">
+            <div class="container">
+                <h3>About Me</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum viverra nulla auctor quam consequat, non efficitur velit mollis. Fusce volutpat ante ut lacus scelerisque euismod. Fusce id felis et urna dictum ullamcorper ut et leo. Sed viverra dui vel enim iaculis, quis ullamcorper augue hendrerit. Nam eget enim ut mauris dignissim dapibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="contact">
+                    <div class="container">
+                      <form id="contact-form" method="post" action="#">
+                        <div class="form-group">
+                          <label for="name">Name</label>
+                          <input type="text" class="form-control" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                          <label for="email">Email</label>
+                          <input type="email" class="form-control" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                          <label for="message">Message</label>
+                          <textarea class="form-control" id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                      </form>
+                    </div>
+                  </div>
+                  
+            </div>
+        </section>
+
+        <section id="book" class="book">
+            <div class="container">
+                <h3>Book Info</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum viverra nulla auctor quam consequat, non efficitur velit mollis. Fusce volutpat ante ut lacus scelerisque euismod. Fusce id felis et urna dictum ullamcorper ut et leo. Sed viverra dui vel enim iaculis, quis ullamcorper augue hendrerit. Nam eget enim ut mauris dignissim dapibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                <a href="#" class="btn btn-primary">Buy Now</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Author Name</p>
+        </div>
+    </footer>
+</body>
+</html>

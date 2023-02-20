@@ -1,0 +1,165 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #444;
+    background-color: #fff;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h1, h2, h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #00b0ff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header styles */
+header {
+    background-color: #fff;
+    height: 80px;
+    border-bottom: 1px solid #ddd;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+header .logo {
+    font-size: 24px;
+    line-height: 80px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #00b0ff;
+}
+
+header nav {
+    float: right;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+header nav ul li a {
+    color: #444;
+}
+
+header nav ul li a:hover {
+    color: #00b0ff;
+    text-decoration: none;
+}
+
+/* About section styles */
+.about {
+    background-color: #f8f8f8;
+    padding: 80px 0;
+}
+
+.about .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.about .container .about-text {
+    width: 50%;
+    margin-right: 30px;
+}
+
+.about .container .about-text h2 {
+    font-size: 36px;
+}
+
+.about .container .about-text p {
+    margin-top: 20px;
+}
+
+.about .container .about-img {
+    width: 50%;
+    text-align: center;
+}
+
+.about .container .about-img img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+/* Contact section styles */
+.contact {
+    padding: 80px 0;
+}
+
+.contact .container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact .container form {
+    width: 50%;
+    margin-right: 30px;
+}
+
+.contact .container form input,
+.contact .container form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 3px;
+}
+
+.contact .container form input:focus,
+.contact .container form textarea:focus {
+    outline: none;
+    box-shadow: 0 0 3px #00b0ff;
+}
+
+.contact .container form button {
+    background-color: #00b0ff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+}
+
+.contact .container form button:hover {
+    background-color: #0087c1;
+    cursor: pointer;
+}
+
+.contact .container .contact-info {
+    width: 50;
+}
